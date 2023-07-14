@@ -1,0 +1,13 @@
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation
+
+authentication_token:
+    path: /api/token/auth
+    methods: ['POST']
+
+gesdinet_jwt_refresh_token:
+    path: /api/token/refresh
+
+token_logout:
+    path: /api/token/logout
